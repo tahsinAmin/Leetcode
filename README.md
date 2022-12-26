@@ -2,18 +2,34 @@
 
 - If you have to look through an element and compare with another element progresssively, use pointers
 
+# Queue using array
+
+```
+    l = [1]
+    for i in range(2, 10):
+        l.insert(0, i)
+    l.pop()
+    print(l)
+```
+
 # Learned
 
 ```
-      for i in range(len_s):
-        if s[i] in dict_s:
-            dict_s[s[i]] += 1
+    for char in m:
+        if char in dic:
+            dic[char] += 1
         else:
-            dict_s[s[i]] = 1
+            dic[char] = 1
 
     ANS :
-    for i in range(len_s):
-        dict_s[s[i]] = 1 + dict_s.get(s[i], 0)
+    dic = {}
+    for char in m:
+            dic[char] = 1 + dic.get(char, 0)
 ```
 
 Leetcode 733 = https://youtu.be/mIp647XVRyc
+
+# Problems
+
+- Difference between Dynamic programming and Memoisation.
+
