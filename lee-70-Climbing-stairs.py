@@ -7,3 +7,4 @@ class Solution:
             one, two = sum, one
 
         return one
+    

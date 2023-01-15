@@ -27,9 +27,36 @@
             dic[char] = 1 + dic.get(char, 0)
 ```
 
+```
+for c in s:
+    if c in dic:
+        dic[c] +=1
+    else:
+        dic[c] = 1
+
+ANS:
+from collections import Counter
+dic = Counter(s)
+```
+
+```
+for i in dic.values():
+    if i % 2 == 0:
+        longest_len += i
+    else:
+        longest_len += i - 1
+        odd_found = True
+
+
+ANs:
+for i in dic.values():
+    if i % 2:
+        odd_found = True
+    longest_len += i - i % 2
+```
+
 Leetcode 733 = https://youtu.be/mIp647XVRyc
 
 # Problems
 
 - Difference between Dynamic programming and Memoisation.
-
