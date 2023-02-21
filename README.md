@@ -55,6 +55,13 @@ for i in dic.values():
     longest_len += i - i % 2
 ```
 
+## Extract value from list
+```
+    x,y,z = [1,2,3]
+    print(y)
+```
+`Since I already know the list has 3 items and I nonly need the last 2 items, Now, I can easily work with y & z`
+
 Leetcode 733 = https://youtu.be/mIp647XVRyc
 
 # Problems
