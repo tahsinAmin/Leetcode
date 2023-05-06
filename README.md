@@ -1,3 +1,7 @@
+# Algorithms
+
+- lee-98
+
 # Arrays
 
 - If you have to look through an element and compare with another element progresssively, use pointers
@@ -58,13 +62,26 @@ for i in dic.values():
 - BFS
 
 ## Extract value from list
+
 ```
     x,y,z = [1,2,3]
     print(y)
 ```
+
 `Since I already know the list has 3 items and I nonly need the last 2 items, Now, I can easily work with y & z`
 
 Leetcode 733 = https://youtu.be/mIp647XVRyc
+
+## Switch Case
+
+```
+match item:
+    case "+":
+        stack.append(stack.pop() + stack.pop())
+    case "-":
+        y, x = stack.pop(), stack.pop()
+        stack.append(x - y)
+```
 
 # Problems
 
